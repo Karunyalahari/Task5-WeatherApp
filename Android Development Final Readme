@@ -1,0 +1,78 @@
+# 📱 Android Weather App – Final Internship Submission
+
+**Internship Program:** Android App Development  
+**Duration:** 45 Days  
+**Company:** ApexPlanet Software Pvt. Ltd.  
+**Final Task:** Task 5 – Finalization, Deployment, and Presentation  
+**Intern:** P.Karunya  
+
+---
+
+## 🗓️ Internship Overview
+
+This 45-day internship focused on developing a complete Android application using **modern development practices**, tools, and technologies. The internship included five progressive tasks designed to teach the end-to-end lifecycle of Android app development.
+
+---
+
+## ✅ Task Breakdown
+
+### 🔹 Task 1: Onboarding and Environment Setup
+- Installed Android Studio and SDKs
+- Configured Git and GitHub for version control
+- Completed basic Android tutorials
+
+### 🔹 Task 2: UI/UX Design and Implementation
+- Designed wireframes and mockups using Figma
+- Built responsive layouts with Jetpack Compose
+- Applied consistent themes and styles
+
+### 🔹 Task 3: Backend Integration and API Handling
+- Integrated **OpenWeatherMap API** using Retrofit
+- Parsed JSON responses and handled API calls
+- Implemented error handling and loading state
+
+### 🔹 Task 4: Advanced Features and Testing
+- Enhanced the app with Compose Material3 components
+- Performed manual testing and optimized UI
+- Prepared for CI/CD (optional setup)
+
+### 🔹 Task 5: Finalization, Deployment, and Presentation ✅
+- Finalized app structure and polished UI
+- Wrote complete documentation (this file)
+- Created release APK and project presentation
+- Published LinkedIn post and GitHub repository
+
+---
+
+## 🌤️ App Summary: Weather Forecast App
+
+This app fetches real-time weather updates based on the user’s city input. It uses the OpenWeatherMap API and displays temperature and condition in a clean and responsive interface.
+
+---
+
+## 🧰 Tech Stack
+
+- **Language:** Kotlin
+- **UI Framework:** Jetpack Compose (Material 3)
+- **Networking:** Retrofit + Gson
+- **Tools:** Android Studio, GitHub, LinkedIn
+- **Optional:** Firebase, CI/CD (planned)
+
+---
+
+## 🚀 Features
+
+- 🌍 City-based weather search
+- 🌡️ Live temperature and condition
+- 📱 Responsive and modern UI
+- ⚙️ Error handling and loading indicators
+
+---
+
+## 🛠️ Setup Instructions
+
+1. Clone the repository or download the ZIP
+2. Open the project in Android Studio
+3. Add your OpenWeatherMap API key in `MainActivity.kt`:
+   ```kotlin
+   api.getWeather(city, "metric", "YOUR_API_KEY")
